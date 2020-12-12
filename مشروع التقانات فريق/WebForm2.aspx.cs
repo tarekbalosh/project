@@ -13,5 +13,10 @@ namespace مشروع_التقانات_فريق
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect(@"Admin\اضافة طالب.aspx");
+        }
     }
 }
